@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, serif;
+    background-color: #B1C0F2;
+    background-attachment: fixed;
+}
+
+#principal {
+    background-color: #ecf0f1e8;
+    margin: 50px 15%;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 13px #333;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+nav{
+    padding: 5px 15px;
+    padding-bottom: 8px;
+    background-color: #12283f;
+    border-radius: 0px 0px 10px 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 5px ;
+    text-align: center;
+}
+
+nav ul li{
+	display:inline;
+    
+}
+
+nav ul li a{
+    background-color: #0d3959;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 40px;
+    border-radius: 1px;
+    text-align: center;
+    color: #bcc9cc;
+    box-shadow: 1px 2px 3px 1px #131111;
+}
+
+nav ul li a:hover{
+    background-color: #bcc9cc;
+    color: #12283f;
+    box-shadow: 0px 0px 0px 0px #333;
+}
+
+h1{
+    color: #bcc9cc;
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 3px 3px 2px #333;
+    
+}
+
+#principal header .imagen{
+    background-image: url("../image/bienvenido.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+   
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+section {
+    padding: 15px;
+}
+
+#principal section .informacion1{
+    padding-right: 40px;
+}
+
+#principal section .informacion1 ul{
+    float:left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#principal section .informacion1 .foto{
+    width: 200px;
+    height: 200px;
+    background-image: url("../image/foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 102% 180%;
+    margin: auto;
+    border-radius: 50%;
+    float:right;
+    box-sizing: border-box;
+}
+
+#principal section .informacion2{
+    text-align: justify;
+}
+
+.clear{
+	clear:both;
+}
+
+h2{
+    color: #183676;
+}
+
+p{
+    color:#181616;
+}
+
+li{
+    margin-bottom: 9px;
+    color: #181616;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 0 0;
+    background-color: #0d3959;
+    border-radius: 10px;
+    color: #bcc9cc;
+}
+
+
+/* Educación */
+#principal section .informacionEducacion ul li p{
+    margin-top: 7px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#principal section ul .colegio{
+    float: left;
+    width: 60%;
+}
+
+#principal section ul .imagen{
+    background-image: url("../image/estudio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+/* Experiencia */
+#principal section .informacionExperiencia{
+    text-align: justify;
+}
