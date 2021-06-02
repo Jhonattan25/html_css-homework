@@ -9,7 +9,7 @@
 
 body{
     background-color: #000000;
-    padding: 0 0%;
+    padding: 0 15%;
     background-attachment: fixed;
 }
 
@@ -37,7 +37,7 @@ header h1{
 
 
 body .contents{
-    margin-top: -4px; /*Revisar*/
+    margin-top: -4px;
     background-color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ p{
 }
 
 body .contents .section1{
-    padding: 130px 90px 75px; 
+    padding: 120px 90px 80px; 
 }
 
 body .contents .section1 .left{
@@ -79,6 +79,11 @@ body .contents .section1 h2::first-line{
 body .contents .section1 img{
     width: 100%;
     height: 100%;
+    margin-top: -22px;
+}
+
+body .contents .section1 h2{
+    margin-top: 40px;
 }
 
 .btn{
@@ -90,7 +95,7 @@ body .contents .section1 img{
 }
 
 body .contents .section1 .part1{
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 .clear{
@@ -138,9 +143,14 @@ footer .contentsFooter .lists{
     border-bottom: 1px solid #fe8792;;
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 footer .contentsFooter .lists .list{
     float: left;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 
@@ -148,9 +158,19 @@ footer .contentsFooter .lists .list ul{
     list-style: none;
 }
 
+footer .contentsFooter .lists .list h4{
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+footer .contentsFooter .lists .list li{
+    margin-bottom: 10px;
+}
+
 footer .contentsFooter p{
     color: #ffffff;
     margin-top: 20px;
+    font-size: 12px;
 }
 
 footer .contentsFooter .left{
