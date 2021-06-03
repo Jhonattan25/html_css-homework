@@ -1,61 +1,62 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
 
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
     background-color: #000000;
-    padding: 0 0%;
+    padding: 0 15%;
     background-attachment: fixed;
 }
 
 header{
     width: 100%;
     position: relative;
-    display: inline-block;
     text-align: center;
 }
 
 header img{
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 header h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 500%;
+    font-size: 600%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+    font-weight: normal;
 }
 
 
 body .contents{
-    margin-top: -4px; /*Revisar*/
     background-color: #ffffff;
 }
 
 h2{
-    font-size: 34px;
+    font-size: 30px;
     color: #363636;
     margin-bottom: 15px;
 }
 
 p{
     color: #363636;
-    font-size: 14px;
     text-align: justify;
     margin-bottom: 30px;
+    font-size: 13px;
+   /*  overflow-wrap: break-word; */
 }
 
 body .contents .section1{
-    padding: 130px 90px 75px; 
+    padding: 120px 90px 80px; 
 }
 
 body .contents .section1 .left{
@@ -73,12 +74,19 @@ body .contents .section1 .right{
 body .contents .section1 h2::first-line{
     background: linear-gradient(to right, #ec4250,#da0170);
    -webkit-background-clip: text;
-    color: transparent;
+   -webkit-text-fill-color: transparent;
+    color: #ec4250;
 }
 
 body .contents .section1 img{
     width: 100%;
     height: 100%;
+    margin-top: -22px;
+    display: block;
+}
+
+body .contents .section1 h2{
+    margin-top: 40px;
 }
 
 .btn{
@@ -90,7 +98,7 @@ body .contents .section1 img{
 }
 
 body .contents .section1 .part1{
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 .clear{
@@ -100,11 +108,11 @@ body .contents .section1 .part1{
 .section2 {
     width: 100%;
     position: relative;
-    display: inline-block;
 }
 
 .section2 img{
     width: 100%;
+    display: block;
 }
 
 .section2 .right{
@@ -122,7 +130,6 @@ body .contents .section1 .part1{
 /* Footer */
 
 footer {
-    margin-top: -4px;
     background: linear-gradient(to right,#ec4250, #ec4250, #f51143);
 }
 
@@ -138,9 +145,15 @@ footer .contentsFooter .lists{
     border-bottom: 1px solid #fe8792;;
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
 footer .contentsFooter .lists .list{
     float: left;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 
@@ -148,9 +161,20 @@ footer .contentsFooter .lists .list ul{
     list-style: none;
 }
 
+footer .contentsFooter .lists .list h4{
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+footer .contentsFooter .lists .list li{
+    margin-bottom: 10px;
+}
+
 footer .contentsFooter p{
     color: #ffffff;
     margin-top: 20px;
+    font-size: 11px;
 }
 
 footer .contentsFooter .left{
