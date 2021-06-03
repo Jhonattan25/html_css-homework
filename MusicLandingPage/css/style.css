@@ -38,7 +38,6 @@ header h1{
 
 
 body .contents{
-    /* margin-top: -4px; */
     background-color: #ffffff;
 }
 
@@ -53,6 +52,7 @@ p{
     text-align: justify;
     margin-bottom: 30px;
     font-size: 13px;
+   /*  overflow-wrap: break-word; */
 }
 
 body .contents .section1{
@@ -74,14 +74,15 @@ body .contents .section1 .right{
 body .contents .section1 h2::first-line{
     background: linear-gradient(to right, #ec4250,#da0170);
    -webkit-background-clip: text;
-    color: transparent;
+   -webkit-text-fill-color: transparent;
+    color: #ec4250;
 }
 
 body .contents .section1 img{
     width: 100%;
     height: 100%;
     margin-top: -22px;
-   display: block;
+    display: block;
 }
 
 body .contents .section1 h2{
