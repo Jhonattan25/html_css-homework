@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body header .nav {
+    display: flex;
+    justify-content:center;
+    padding: 30px 0;
+}
+
+body header .nav .image{
+    width: 200px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+body header .nav .list{
+    width: 400px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 16px 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size: 14px;
+}
+
+body header .nav .colour{
+    background-color: #8b8b8b;
+    padding: 16px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
