@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Layout completo</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
             <span>Bienvenido a las páginas flexibles</span>
         </div>
         <nav class="headerNav">
-            <div>
+            <div class="left">
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Quiénes somos</a></li>
@@ -22,7 +23,7 @@
                     <li><a href="#">Conectato</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="right">
                 <ul>
                     <li><a href="#">English</a></li>
                     <li><a href="#">Euskera</a></li>
@@ -31,8 +32,20 @@
         </nav>
     </header>
     <section class="content">
-        <aside></aside>
-        <section></section>
+        <aside class="contentLeft">
+            <section class="contentLeftOne">
+                <h2>El señor Aside</h2>
+                <div>400 x 400</div>
+            </section>
+        </aside>
+        <section class="contentRight">
+            <section class="contentRightOne">
+                <h2>Título del artículo del día</h2>
+                <p><strong> El día que aprendi Flexbox, 18/01/2019</strong></p>
+                <div>668 x 200</div>
+                <p>Lorem ipsum dolor sit amet, consectefur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulamco laboris nisit ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupdate velit esse cillum dolore eu fugiat nulla pariatur. Exceptuar sint occaecat cupidatat non proident.</p>
+            </section>
+        </section>
     </section>
     <footer></footer>
 </body>
