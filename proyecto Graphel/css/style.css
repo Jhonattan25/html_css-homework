@@ -64,7 +64,7 @@ body{
     background-image: url("../images/cabecera.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 0 140px;
     padding-top: 80px;
     padding-bottom: 140px;
@@ -124,6 +124,11 @@ body{
 
 .contain div img{
     width: 70px;
+}
+
+.contain div #samsung{
+    width: 200px;
+    height: 70px;
 }
 
 .contain div p{
