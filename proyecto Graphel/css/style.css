@@ -5,14 +5,28 @@ body{
     font-family: sans-serif;
 }
 
+/* Header - Nav */
+
+.header{
+    color: #fff;
+}
+
 .header .headerNav{
     background-color: #24282b;
     display: flex;
     justify-content: space-between;
-    color: #fff;
-    padding: 10px 140px;
+    padding: 5px 140px;
     align-items: center;
     border-bottom: 5px solid #1293d4;
+}
+
+.header .headerNav h2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .headerNav h2 span{
+    color: #1293d4;
 }
 
 .header .headerNav .headerNavElements{
@@ -20,20 +34,108 @@ body{
     list-style: none;
     padding: 0;
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
+    min-width: 263px;
+}
+
+.header .headerNav .headerNavElements #actualPage{
+    color: #1293d4;
+    font-weight: bold;
 }
 
 .header .headerNav .headerNavElements a{
     text-decoration: none;
+    font-size: 14px;
     color: #fff;
-    font-size: 12px;
+    transition: all 0.5s;
 }
+
+.header .headerNav .headerNavElements a:hover{
+    color: #24282b;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+/* Header - Image */
 
 .header .headerImg{
     width: 100%;
+    background-image: url("../images/cabecera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 140px;
+    padding-top: 80px;
+    padding-bottom: 140px;
+    text-align: center;
+    box-sizing: border-box;
 }
+
+.header .headerImg h1{
+    font-size: 50px;
+    margin: 0;
+}
+
 
 .header .headerImg img{
     width: 100%;
     height: 400px;
+}
+
+/* Header - Subs */
+
+.header .headerSuscribe{
+    display: flex;
+    background-color: #24282b;
+    justify-content: space-between;
+    padding: 10px 140px;
+    align-items: center;
+}
+
+.header .headerSuscribe div input{
+    padding: 8px 5px;
+    border: none;
+    width: 280px;
+    outline-color: #e8491d;
+}
+
+.header .headerSuscribe div button{
+    background-color: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contain */
+
+.contain{
+    display: flex;
+    padding: 25px 140px;
+    justify-content: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contain div{
+    width: 33.33333333%;
+}
+
+.contain div img{
+    width: 70px;
+}
+
+.contain div p{
+    font-size: 13px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1293d4;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
 }

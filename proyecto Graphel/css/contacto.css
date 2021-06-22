@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.contactoContain{
+    display: flex;
+    padding: 0 140px;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+/* Contain - Section*/
+
+.contactoContain .contactoContainSection{
+    width: 65%;
+}
+
+.contactoContain .contactoContainSection input{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 2px;
+}
+
+.contactoContain .contactoContainSection input[type=button]{
+    background-color: #e8491d;
+    color: #fff;
+    border: 1px solid #606c74;
+    cursor: pointer;
+}
+
+.contactoContain .contactoContainSection textarea{
+    display: block;
+    margin-bottom: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+/* Contain - Aside */
+
+.contactoContain .serviciosContainAside{
+    width: 30%;  
+    color: #fff;
+}
+
+.contactoContain .serviciosContainAside div{
+    background-color: #35424a;
+    margin-top: 19.920px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.contactoContain .serviciosContainAside img{
+    width: 100%;
+}
