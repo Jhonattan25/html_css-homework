@@ -36,6 +36,7 @@
     margin-bottom: 10px;
     height: 120px;
     width: 100%;
+    resize: none;
 }
 
 /* Contain - Aside */
