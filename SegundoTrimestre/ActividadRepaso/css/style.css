@@ -83,8 +83,34 @@ a{
 }
 
 .header .headerImg .headerImgLeft .headerImgButtons{
-
+    border: 2px #585172 solid;
+    width: 70%;
+    padding: 5px;
+    border-radius: 6px;
 }
+
+.header .headerImg .headerImgLeft .headerImgButtons .buttonLeft{
+    width: 53%;
+    font-size: 17px;
+    padding: 13px 0px;
+    border-radius: 6px;
+    border: 2px #fff solid;
+    color: #da0170;
+    
+}
+
+.header .headerImg .headerImgLeft .headerImgButtons .buttonRight{
+    width: 45%;
+    font-size: 21px;
+    font-size: 17px;
+    padding: 13px 0px;
+    color: #fff;
+    background-color: #2e2550;
+    border: 2px #fff solid;
+    border-radius: 4px;
+    
+}
+
 
 .header .headerImg .headerImgRight{
     width: 50%;
@@ -102,3 +128,84 @@ a{
 .header .headerImg .headerImgRight img {
     height: 451px;
 }
+
+/* ----- CONTENIDO ----- */
+
+ /* CONTENIDO SECCION 1*/
+.contain .containSection1{
+    background-color: #f1f2f7;
+    padding: 35px 180px;
+} 
+
+.contain .containSection1 h2{
+    font-size: 60px;
+    color: #f41486;
+    margin-top: 0;
+    text-align: center;
+}
+
+.contain .containSection1 .containSection1Contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contain .containSection1 .containSection1Contain img{
+    width: 50%;
+}
+
+.contain .containSection1 .containSection1Contain .containRight{
+    width: 35%;
+}
+
+.contain .containSection1 .containSection1Contain .containRight .subContainRight1 h3{
+    font-size: 42px;
+    font-weight: normal;
+    color: #c72878;
+    margin-top: 0;
+}
+
+.contain .containSection1 .containSection1Contain .containRight .subContainRight1 p{
+    color: #3f3f3f;
+    font-size: 17px;
+}
+
+.contain .containSection1 .containSection1Contain .containRight .subContainRight2 h3{
+    font-size: 22px;
+    font-weight: normal;
+    color: #f1228b;
+    margin-bottom: 0;
+}
+
+.contain .containSection1 .containSection1Contain .containRight .subContainRight2 ul{
+    padding: 0;
+    list-style: none;
+    color: #3f3f3f;
+    font-size: 17px;
+}
+
+ /* CONTENIDO SECCION 2 */
+ .contain .containSection2{
+    background-color: #1e172f;
+    padding: 35px 180px;
+    text-align: center;
+    color: #fff;
+ }
+
+ .contain .containSection2 h2{
+     font-size: 60px;
+     margin-top: 0;
+     margin-bottom: 40px;
+ }
+
+ .contain .containSection2 p{
+     margin-top: 0;
+     padding: 0 130px;
+     color: #f1f2f7;
+     font-size: 17px;
+ }
+
+ .contain .containSection2 .containSection2Cards{
+     display: flex;
+     justify-content: space-between;
+ }
