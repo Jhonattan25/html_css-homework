@@ -163,6 +163,7 @@ a{
     font-weight: normal;
     color: #c72878;
     margin-top: 0;
+    margin-bottom: 33px;
 }
 
 .contain .containSection1 .containSection1Contain .containRight .subContainRight1 p{
@@ -182,6 +183,9 @@ a{
     list-style: none;
     color: #3f3f3f;
     font-size: 17px;
+    list-style-image: url("../image/cheque.png");
+    list-style-position: inside;
+    margin-top: 10px;
 }
 
  /* CONTENIDO SECCION 2 */
@@ -193,13 +197,14 @@ a{
  }
 
  .contain .containSection2 h2{
-     font-size: 60px;
+     font-size: 58px;
      margin-top: 0;
-     margin-bottom: 40px;
+     margin-bottom: 34px;
  }
 
  .contain .containSection2 p{
      margin-top: 0;
+     margin-bottom: 55px;
      padding: 0 130px;
      color: #f1f2f7;
      font-size: 17px;
@@ -209,3 +214,101 @@ a{
      display: flex;
      justify-content: space-between;
  }
+
+ .contain .containSection2 .containSection2Cards .card {
+     background-color: #fff;
+     color: #272727;
+     width: 31%;
+     border-radius: 4px;
+     padding: 10px 0px;
+     box-sizing: border-box;
+     font-size: 17px;
+ }
+
+ .contain .containSection2 .containSection2Cards .card:first-child .cardHeader h4{
+    color: #f1228b;
+}
+
+ .contain .containSection2 .containSection2Cards .card .cardHeader h4{
+     margin-top: 0px;
+     font-size: 21px;
+     
+ }
+
+ .contain .containSection2 .containSection2Cards .card .cardHeader .cardHeaderPrice{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     background-color: #f5f5f5;
+     padding: 10px 56px;
+ }
+
+ .contain .containSection2 .containSection2Cards .card .cardHeader .cardHeaderPrice .price{
+     font-size: 40px;
+ }
+
+.contain .containSection2 .containSection2Cards .card .cardContain ul{
+    width: 65%;
+    padding-left: 55px;
+    list-style: none;
+    list-style-image: url("../image/senal-de-garrapata.png");
+    list-style-position: outside;
+}
+
+.contain .containSection2 .containSection2Cards .card:first-child .cardContain ul{
+    list-style-image: url("../image/senal-de-garrapata2.png");
+}
+
+.contain .containSection2 .containSection2Cards .card .cardContain ul li{
+    margin-bottom: 8px;
+}
+
+.contain .containSection2 .containSection2Cards .card .cardContain p{
+    color: #272727;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 35px;
+}
+
+.contain .containSection2 .containSection2Cards .card .cardFooter button{
+    color: #fff;
+    background-color: #2e2550;
+    border: none;
+    font-size: 17px;
+    padding: 13px 20px;
+    border-radius: 4px;
+}
+
+.contain .containSection2 .containSection2Cards .card:first-child .cardFooter button{
+    background: linear-gradient(to right,#fa7fbc, #f1228b);
+}
+
+/* ----- FOOTER ----- */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 180px;
+    color: #272727;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 17px;
+}
+
+.footer span{
+    color: #f1228b;
+}
+
+.footer .footerIcons{
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+}
+
+.footer .footerIcons img{
+    width: 22px;
+}
