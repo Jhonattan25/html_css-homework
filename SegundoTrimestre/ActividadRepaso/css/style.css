@@ -2,8 +2,7 @@
 
 body{
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: "Open Sans", "Segoe UI", "Proxima Nova", "Open Sans", Roboto, Helvetica, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
 }
 
 a{
@@ -59,7 +58,7 @@ a{
 
 .header .headerImg .headerImgLeft{
     width: 50%;
-    height: 455px;
+    height: 456px;
     padding-left: 180px;
     padding-right: 20px;
     padding-top: 142px;
@@ -68,15 +67,15 @@ a{
 }
 
 .header .headerImg .headerImgLeft h1{
-    font-size: 77px;
+    font-size: 75px;
     color: #fff;
     margin-top: 15px;
     margin-bottom: 45px;
-    line-height: 85px;
+    line-height: 79px;
 }
 
 .header .headerImg .headerImgLeft p{
-    font-size: 21px;
+    font-size: 20px;
     color: #fff;
     margin-top: 0;
     margin-bottom: 40px;
@@ -92,6 +91,7 @@ a{
 .header .headerImg .headerImgLeft .headerImgButtons .buttonLeft{
     width: 53%;
     font-size: 17px;
+    font-weight: bold;
     padding: 13px 0px;
     border-radius: 6px;
     border: 2px #fff solid;
@@ -138,7 +138,7 @@ a{
 } 
 
 .contain .containSection1 h2{
-    font-size: 60px;
+    font-size: 56px;
     color: #f41486;
     margin-top: 0;
     text-align: center;
@@ -155,11 +155,11 @@ a{
 }
 
 .contain .containSection1 .containSection1Contain .containRight{
-    width: 35%;
+    width: 39%;
 }
 
 .contain .containSection1 .containSection1Contain .containRight .subContainRight1 h3{
-    font-size: 42px;
+    font-size: 40px;
     font-weight: normal;
     color: #c72878;
     margin-top: 0;
@@ -168,11 +168,11 @@ a{
 
 .contain .containSection1 .containSection1Contain .containRight .subContainRight1 p{
     color: #3f3f3f;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .contain .containSection1 .containSection1Contain .containRight .subContainRight2 h3{
-    font-size: 22px;
+    font-size: 21px;
     font-weight: normal;
     color: #f1228b;
     margin-bottom: 0;
@@ -182,10 +182,11 @@ a{
     padding: 0;
     list-style: none;
     color: #3f3f3f;
-    font-size: 17px;
+    font-size: 16px;
     list-style-image: url("../image/cheque.png");
     list-style-position: inside;
     margin-top: 10px;
+    line-height: 26px;
 }
 
  /* CONTENIDO SECCION 2 */
@@ -197,9 +198,9 @@ a{
  }
 
  .contain .containSection2 h2{
-     font-size: 58px;
+     font-size: 56px;
      margin-top: 0;
-     margin-bottom: 34px;
+     margin-bottom: 32px;
  }
 
  .contain .containSection2 p{
@@ -207,7 +208,8 @@ a{
      margin-bottom: 55px;
      padding: 0 130px;
      color: #f1f2f7;
-     font-size: 17px;
+     font-size: 16px;
+     line-height: 24px;
  }
 
  .contain .containSection2 .containSection2Cards{
@@ -232,7 +234,7 @@ a{
  .contain .containSection2 .containSection2Cards .card .cardHeader h4{
      margin-top: 0px;
      font-size: 21px;
-     
+     margin-bottom: 14px;
  }
 
  .contain .containSection2 .containSection2Cards .card .cardHeader .cardHeaderPrice{
@@ -251,12 +253,25 @@ a{
     width: 65%;
     padding-left: 55px;
     list-style: none;
-    list-style-image: url("../image/senal-de-garrapata.png");
+    list-style-image: url("../image/check.png");
     list-style-position: outside;
+    font-size: 16px;
+}
+
+.contain .containSection2 .containSection2Cards .card .cardContain ul li:first-child{
+    list-style-image: url("../image/star.png");
+}
+
+.contain .containSection2 .containSection2Cards .card .cardContain ul li:last-child{
+    list-style-image: url("../image/close.png");
+}
+
+.contain .containSection2 .containSection2Cards .card:first-child .cardContain ul li:first-child{
+    list-style-image: url("../image/star2.png");
 }
 
 .contain .containSection2 .containSection2Cards .card:first-child .cardContain ul{
-    list-style-image: url("../image/senal-de-garrapata2.png");
+    list-style-image: url("../image/check2.png");
 }
 
 .contain .containSection2 .containSection2Cards .card .cardContain ul li{
@@ -276,7 +291,7 @@ a{
     background-color: #2e2550;
     border: none;
     font-size: 17px;
-    padding: 13px 20px;
+    padding: 13px 24px;
     border-radius: 4px;
 }
 
@@ -292,6 +307,7 @@ a{
     align-items: center;
     padding: 35px 180px;
     color: #272727;
+    opacity: 0.74;
 }
 
 .footer p{
@@ -301,6 +317,7 @@ a{
 
 .footer span{
     color: #f1228b;
+    font-weight: bold;
 }
 
 .footer .footerIcons{
