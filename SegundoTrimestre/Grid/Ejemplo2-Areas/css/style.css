@@ -1,21 +1,26 @@
 @charset "utf-8";
 
+section{
+    height: 97vh;
+}
+
 .elements{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
     "element1 element2 element3"
     "element1 element4 element4"
     "element5 element5 element6"
     "element7 element8 element9";
-    grid-gap: 10px;
+    grid-gap: 20px;    
 }
 
 .element{
-    background-color: indianred;
-    width: 20px;
-    height: 20px;
+    background-color:#ff4d4d;
 }
 .element1{
     grid-area: element1;
