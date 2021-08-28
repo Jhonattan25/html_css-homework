@@ -12,14 +12,13 @@ body{
 
 header{
     background-color: #4c5b66;
-    padding: 0 165px;
 }
 
 .headerNavbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 165px;
     font-size: 17px;
     margin-bottom: 10px;
 }
@@ -54,10 +53,15 @@ a{
 .headerImg{
     display: flex;
     align-items: center;
+    padding: 0 165px;
 }
 
 .headerImg .headerLeft,.headerImg .headerRight{
     width: 50%;
+}
+
+.headerImg .headerLeft img{
+    display: block;
 }
 
 .headerImg .headerRight h1{
@@ -117,4 +121,101 @@ a{
     background-position:center;
     background-size: contain;
     margin-right: 10px;
+}
+
+.headerBusiness{
+    background-color: #eaeaea;
+    padding: 17px 165px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #d1d1d1;
+    border-bottom: 2px solid #d1d1d1;
+}
+
+/** ----- BODY ------ */
+
+.sections{
+    padding: 17px 165px;
+    background-color: #f5f5f5;
+}
+
+.section1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "logo1 logo2 logo3"
+    "txt1 txt2 txt3"
+    "btn1 btn2 btn3";
+    justify-content: space-between;
+}
+
+.section1 .section1ImgColumn1{
+    grid-area: logo1;
+}
+
+.section1 .section1TextColumn1{
+    grid-area: txt1;
+}
+
+.section1 .section1ButtonColumn1{
+    grid-area: btn1;
+}
+
+.section1 .section1ImgColumn2{
+    grid-area: logo2;
+}
+
+.section1 .section1TextColumn2{
+    grid-area: txt2;
+}
+
+.section1 .section1ButtonColumn2{
+    grid-area: btn2;
+}
+
+.section1 .section1ImgColumn3{
+    grid-area: logo3;
+}
+
+.section1 .section1TextColumn3{
+    grid-area: txt3;
+}
+
+.section1 .section1ButtonColumn3{
+    grid-area: btn3;
+}
+
+.section1 img{
+    margin: 0 auto;
+}
+
+.section1 h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #68747e;
+}
+
+.section1 p{
+    font-size: 14px;
+    color: #80868a;
+    margin-bottom: 40px;
+}
+
+.section1 button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ebf2f8;
+    background: linear-gradient(to right,#3d93d1,#419bd4, #419bd4,#3d93d1);
+    background-color: #3b90cf;
+    border: 2px solid #4b87b6;
+    border-top: 2px solid #69a1cc;
+    border-bottom: 2px solid #69a1cc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px #3e4a53;
 }
