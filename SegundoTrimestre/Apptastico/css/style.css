@@ -4,9 +4,9 @@
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body{
     margin: 0;
@@ -371,7 +371,7 @@ a{
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 30px;
-    border-top: 1px solid #e8e8e8;
+    border-top: 1px solid #dad6d6;
 }
 
 .footer .footerContent span{
@@ -381,4 +381,107 @@ a{
 
 .footer img{
     margin-left: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .headerImg .headerRight .button button{
+        padding: 15px 30px;
+    }
+
+    .headerImg .headerRight h1{
+        font-size: 47px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .headerNavbar{
+        padding: 30px 35px;
+    }
+
+    .headerImg{
+        padding: 0 35px;
+    }
+
+    .headerBusiness{
+        padding: 17px 35px;
+    }
+
+    .sections{
+        padding: 100px 35px;
+    }
+
+    .footer{
+        padding: 0px 35px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .headerNavbar{
+        padding: 20px 35px;
+    }
+
+    .headerNavbar ul{
+        width: 45%;
+    }
+
+    .headerImg{
+        justify-content: space-between;
+    }
+
+    .headerImg .headerLeft,.headerImg .headerRight{
+        width: 48%;
+    }
+
+    .headerImg .headerLeft img{
+        width: 100%;
+    }
+
+    .headerImg .headerRight h1{
+        font-size: 37px;
+    }
+
+    .headerImg .headerRight .p1{
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    
+    .headerImg .headerRight .p2{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .headerImg .headerRight .button button{
+        font-size: 13px;
+        padding: 10px 20px;
+        box-shadow: 0px 5px 4px 0px #3e4a53;
+    }
+
+    .headerImg .headerRight .button .or{
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    
+    .headerImg .headerRight .button .link{
+        font-size: 14px;
+        font-weight: 500;
+        border-bottom: 1px solid #dadadb;
+    }
+    
+    .headerImg .headerRight .button .link span{
+        padding: 0 8px;
+    }
+
+    .sections{
+        padding: 60px 35px;
+        padding-bottom: 55px;
+    }
+
+    .section2 .section2Imgs img{
+        width: 25%;
+    }
+
+    .section2 .section2Imgs{
+        flex-wrap: wrap;
+    }
 }
