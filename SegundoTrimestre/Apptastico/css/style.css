@@ -312,6 +312,7 @@ a{
 
 .section3 .section3Left img{
     box-shadow: 1px 1px 2px 2px #d9d9d9;
+    margin-right: 30px;
 }
 
 .section3 .section3Left .blog div{
@@ -477,11 +478,24 @@ a{
         padding-bottom: 55px;
     }
 
+    .section2 .section2Imgs{
+        flex-wrap: wrap;
+    }
+
     .section2 .section2Imgs img{
         width: 25%;
     }
 
-    .section2 .section2Imgs{
-        flex-wrap: wrap;
+    .section3 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .section3 .link{
+        font-size: 13px;
+    }
+    
+    .section3 .section3Left h4{
+        font-size: 13px;
     }
 }
